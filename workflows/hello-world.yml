@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout on repository code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4.1.1
       - name: printing contents of hello_world.txt
         run: cat hello_world.txt
   
